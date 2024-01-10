@@ -1,0 +1,115 @@
+
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/*Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*-----------BANNER SECTION-------------*/
+.banner{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #3475ca;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.25;
+}
+
+.banner .contenido{
+    position: relative;
+    max-width: 850px;
+    text-align: center;
+}
+
+.banner .contenido h2{
+    color: #fff;
+    font-size: 50px;
+}
+
+.banner .contenido p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.banner header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.banner header .logo{
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.banner header .menu-hamburguer{
+    position: relative;
+    width: 36px;
+    height: 30px;
+    background: url('../assets/iconos/menu-bar.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+/*------------SOBRE MI SECTION---------------*/
+.sobre-mi{
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+
+.sobre-mi .contenidoBx{
+    background: #162c3b;
+    padding: 100px;
+    width: 50%;
+}
+
+.heading{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.texto{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.sobre-mi .imgBx{
+    width: 50%;
+    background: url("../assets/img/enEquipo.jpg");
+    background-size: cover;
+    background-position: center;
+}
