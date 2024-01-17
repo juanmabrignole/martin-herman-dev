@@ -113,3 +113,212 @@
     background-size: cover;
     background-position: center;
 }
+
+/*------------SERVICIOS SECTION---------------*/
+
+.servicios{
+    background: #12222d;
+    padding: 100px;
+    text-align: center;
+}
+
+.servicios .contenedor{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.servicios .contenedor .serviciosBx{
+   position: relative;
+   background: #fff;
+   width: 350px;
+   height: 400px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.servicios .contenedor .serviciosBx img{
+    width: 100px;
+ }
+
+ .servicios .contenedor .serviciosBx h2{
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 1px;
+ }
+
+ /*------------TECNOLOGIAS SECTION---------------*/
+
+ .tecnologias{
+    background: #3F8FFC;
+    width: 100%;
+    padding: 100px;
+    padding-top: 300px;
+    margin-top: -300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .tecnologias .contenidoBx{
+    max-width: 800px;
+ }
+
+ .tecnologias .imgBx{
+   max-width: 450px;
+ }
+
+ .tecnologias .imgBx img{
+    max-width: 100%;
+    margin-left: 40px;
+  }
+
+/*------------CLIENTES SECTION---------------*/
+
+.clientes{
+    background: #d4e6f1;
+    padding: 100px;
+    text-align: center;
+}
+
+
+.clientes .imgBx{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.clientes .imgBx img{
+ max-width: 200px;
+ opacity: 0.35;
+ cursor: pointer;
+}
+
+.clientes .imgBx img:hover{
+    opacity: 1;
+   }
+
+.heading_clientes{
+    color: #12222d;
+    font-size: 2rem;
+}
+
+.texto_clientes{
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+/*------------TESTIMONIOS SECTION---------------*/
+
+.testimonios{
+    position: relative;
+    padding: 100px;
+    background: #12222d;
+    text-align: center;
+}
+
+.testimonios .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.testimonios .container .contenidoBx{
+   background: #fff;
+   padding: 60px 50px;
+   width: 550px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: left; 
+   border-radius: 4px;  
+}
+
+.testimonios .container .contenidoBx p{
+    font-style: italic;
+ }
+
+ .testimonios .container .contenidoBx h3{
+    width: 100%;
+    text-align: end;
+ }
+
+ /*------------CONTACTO SECTION---------------*/
+ .contacto{
+    padding: 100px;
+    background: #162c3b;
+    text-align: center;
+ }
+
+.imgBx2{
+    background: url("../assets/img/burst-kUqqaRjJuw0-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+}
+
+.redbg{
+    background: url("../assets/img/james-lee-YpDkIh137ws-unsplash.jpg") !important;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+}
+
+.formulario .inputBx{
+    margin-bottom: 40px;
+}
+
+.formulario .inputBx input{
+    width: 100%;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.formulario .inputBx input::placeholder{
+    color: #fff;
+}
+
+.formulario .inputBx textarea{
+    width: 100%;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    min-height: 150px;
+}
+
+.formulario .inputBx textarea::placeholder{
+    color: #fff;
+}
+
+.formulario .inputBx input[type="submit"]{
+   width: 150px;
+   background: #fff;
+   color: #111;
+   font-weight: 400;
+   cursor: pointer;
+}
+
+
+
